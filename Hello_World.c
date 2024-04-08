@@ -3,7 +3,9 @@
 int main () {
     int zahl;
 
-    for(zahl = 1; zahl <= 2000000; zahl++) {
+    printf("Hello World!\n");
+
+    for(zahl = 1; zahl <= 20; zahl++) {
         printf("%d\n", zahl);
     }
 
