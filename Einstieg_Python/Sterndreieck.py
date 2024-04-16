@@ -1,4 +1,4 @@
-#Steuerrechner
+#Sterndreieck
 x = "*"
 counter_x = 0
 counter = 0
