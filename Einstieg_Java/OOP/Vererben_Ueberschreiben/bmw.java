@@ -7,7 +7,7 @@ public class bmw extends auto {
         getGeschwindigkeit = getGeschwindigkeit+5;
         return getGeschwindigkeit;
     }
-     public String getFarbe(String Farbe){        //Farbe hier auch groß geschrieben, weil neuer wert idk
+     public String getFarbe(){        //Farbe hier auch groß geschrieben, weil neuer wert idk
         return farbe;
      }
     
