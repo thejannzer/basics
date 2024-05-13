@@ -1,6 +1,3 @@
-//festlegen in welchem package sich die Klasse befindet
-package tests;
-
 import junit.framework.TestCase;
 import Main.auto;
 
