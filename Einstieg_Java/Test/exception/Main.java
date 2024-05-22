@@ -5,12 +5,12 @@ public class Main{
     public static void main(String[] args) {
         //exception = Ausnahme die den normalen Ablauf des Programms unterbricht
 
+        System.out.println("Enter a whole number: ");
         try{
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a whole number to divide: ");
         int x = scanner.nextInt();
-
+        
         System.out.println("Enter a whole number to divide by: ");
         int y = scanner.nextInt();
 
