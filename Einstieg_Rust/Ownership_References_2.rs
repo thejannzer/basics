@@ -54,5 +54,7 @@ fn main() {
         println!("Content of input: {}", input);
     } 
 
+    //Lifetime = gibt an wie lange eine Referenz auf einem Datenstück gültig ist (Borrow Checker)
+
 
 }
