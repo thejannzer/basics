@@ -59,7 +59,8 @@ fn main() {
         (first, last)                          //Return ohne ;
 }
 
-
+//"Hello World" = string literal
+//String::from("Hello World") = String
   
 
 
