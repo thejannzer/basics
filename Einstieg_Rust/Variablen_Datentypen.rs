@@ -13,3 +13,6 @@ fn main() {
     println!("{}", arr[3]);
    
 }
+
+// "Hello World" = string literal
+// String::from("Hello World") = String
