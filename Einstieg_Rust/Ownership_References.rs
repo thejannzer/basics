@@ -9,12 +9,12 @@ fn main() {
 
 
     let name = String::from("Caleb");
-    let n = &name;      // Referenz von name... zeigt auf Adresse, nicht auf Wert
+    let n = &name;              // Referenz von name... zeigt auf Adresse, nicht auf Wert
     println!("{n}");
 
     // Ownership
     let first = String::from("Owner");
-    let name = first;        //first existiert nicht mehr... moved into name
+    let name = first;           //first existiert nicht mehr... moved into name
     println!("{name}");
 
     let score = 50;

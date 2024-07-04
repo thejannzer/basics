@@ -23,4 +23,4 @@ fn laengstes<'a>(x: &'a str, y: &'a str) -> &'a str{    //Referenz x und y müss
     }
 }
 
-//Lifetimes sind notwendig, damit keine Referenz auf ungültige Speicherbereiche zeigt
+//Lifetimes sind notwendig, damit keine Referenz auf ungültige Speicherbereiche zeigt (Dangling References)

@@ -1,5 +1,5 @@
 fn main() {
-    //Garbage Collector kontrolliert Speicherbelegung
+    //Garbage Collector kontrolliert Speicherbelegung in Sprachen wie Java
     //und auch Speicherfreigabe... in C muss dies selbst erledigt werden
 
     //In Rust wird die Speicherbelegung durch Ownership-Regeln kontrolliert (Speichersicherheit)
@@ -11,13 +11,13 @@ fn main() {
 
     //String/string literal
     { 
-        let str_lit = "hello"; // “str_lit” is declared and valid only in Scope
+        let str_lit = "hello";              // “str_lit” is declared and valid only in Scope
     } 
 
-    let string = String::from("Hello"); // String
+    let string = String::from("Hello");     // String
 
     let mut string = String::from("Hello"); // We need a mutable string for editing
-    string.push_str(", world!"); // push_str() appends a literal to a String
+    string.push_str(", world!");            // push_str() appends a literal to a String
     println!("{}", string);
 
     //Strings sind mutable, aber string literals nicht
@@ -25,15 +25,15 @@ fn main() {
     //Copy und Move
     {
         let x = 5;
-        let y = x;  //Wert von x wird kopiert (Bei String move)
+        let y = x;                          //Wert von x wird kopiert (Bei String move)
 
         println!("Adress of x: {:p}", &x);
         println!("Adress of y: {:p}", &y);
     }
     {
         let s1 = String::from("Hello");
-        let s2 = s1; // Value of “s1” is moved into “s2”
-        println!("{}, World!", s1); //Fehler 
+        let s2 = s1;                        // Value of “s1” is moved into “s2”
+        println!("{}, World!", s1);         //Fehler 
     }        
 
     //--> Lösung = Refenrences + Borrowing
