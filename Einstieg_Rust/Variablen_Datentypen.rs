@@ -16,3 +16,4 @@ fn main() {
 
 // "Hello World" = string literal
 // String::from("Hello World") = String
+// String ist mutable, string literal nicht
