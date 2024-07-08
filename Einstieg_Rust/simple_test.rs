@@ -22,3 +22,6 @@ mod tests {
         assert_eq!(verdopple_zahlen(zahlen), erwartete_verdoppelte_zahlen);
     }
 }
+
+//mod = Module... kapseln Funktionalitäten und gliedern Code
+// in separate Namensräume
