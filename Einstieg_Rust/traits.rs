@@ -32,3 +32,11 @@ fn main() {
         }
     }
 }
+
+// self = erstes Argument in der Methode bei traits und impl (Referenz auf das Objekt)
+// Self = Typ des aktuellen Objekts
+
+/*  trait Clone{
+        fn clone(&self) -> Self;
+    }
+*/  

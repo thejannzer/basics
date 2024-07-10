@@ -37,7 +37,7 @@ fn main() {
 
     //String slice
     {
-        let s = String::from("Hello");      //UTF-8 Buchstaben brauchen jeder 1 byte/8 bit (siehe s.len())
+        let s = String::from("Hello");      //UTF-8 Buchstaben brauchen jeder 1 byte/8 bit (siehe s.len()) ASCII 255 Zeichen
         let s1 = String::from("Лекция");    //braucht 2 bytes pro Symbol
         let s2 = &s1[0..4]; // Prints "Ле"
         println!("UTF-8 encoded word: {} len: {}",s, s.len());
