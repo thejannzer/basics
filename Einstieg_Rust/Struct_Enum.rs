@@ -19,7 +19,7 @@ fn main() {
         active: true,
     };
     println!("Username: {}", user1.username);
-    println!("Alles: {:?}", user1);    //{:?} Platzhalter um Daten in Debugformatierung auszugeben... stellt Werte des Struct dar
+    println!("Alles: {:?}", user1);    //{:?} Daten in Debugformatierung auszugeben... stellt Werte des Struct dar
 
     //Tuple Struct... keine benannten Felder, sondern Felder, die Position haben
     struct Color(i32, i32, i32);
