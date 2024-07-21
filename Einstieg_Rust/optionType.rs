@@ -3,7 +3,7 @@
 fn main() {
     let some_number: Option<i32> = Some(5);
     let some_string: Option<&str> = Some("Hello, Rust!");
-    //&str = String Slice (Referenz auf Zeichenkette)... siehe slices Ordner
+    //&str = String literal(Referenz auf Zeichenkette)
     let absent_number: Option<i32> = None;
 
     println!("{:?}, {:?}, {:?}", some_number, some_string, absent_number);

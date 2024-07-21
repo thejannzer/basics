@@ -19,7 +19,7 @@ fn main() {
         active: true,
     };
     println!("Username: {}", user1.username);
-    println!("Alles: {:?}", user1);    //{:?} Daten in Debugformatierung auszugeben... stellt Werte des Struct dar
+    println!("Alles: {:?}", user1);    //{:?} Platzhalter um Daten in Debugformatierung auszugeben... stellt Werte des Struct dar
 
     //Tuple Struct... keine benannten Felder, sondern Felder, die Position haben
     struct Color(i32, i32, i32);
@@ -27,10 +27,7 @@ fn main() {
     let black = Color(0,0,0);
     println!("Black: ({}, {}, {})", black.0, black.1, black.2);
 
-    //Unlike-Struct... keine Felder (oft verwendet für Typensicherheit)
-    struct AlwaysEqual;
-
-    let subject = AlwaysEqual;
+    
 
 
     //Enum = Datenstruktur mit der man einen Wert aus einer vordefinierten Menge von Varianten wählen kann
@@ -41,7 +38,7 @@ fn main() {
     }
     let light = Ampel::Red;       //erstellt Variable red mit vordefinierten Wert aus Ampel
     
-    //enum mit match auswerten
+    //enum mit match auswerten (status)
     fn status(light: Ampel){
         match light{
             Ampel::Red => println!("Das Licht ist Rot!"),
@@ -51,19 +48,9 @@ fn main() {
     }
     status(light);
 
-    #[derive(Debug)]
-    //Enums können auch zusätzliche Werte haben
-    enum Message{
-        Quit,
-        Move {x: i32, y: i32},
-        Write (String),
-        ChangeColor (i32, i32, i32),
-    }
-    let msg1 = Message::Move{x: 10, y: 32};
-    fn getMessage(msg1: Message) {
-        println!("{:?}", msg1);
-    }
-    getMessage(msg1);
+    
+
+    //impl wird benutzt um structs und enums zu implementieren
     
 }
 

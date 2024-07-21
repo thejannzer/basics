@@ -59,3 +59,4 @@ fn main() {
 
 //{:?} = debug format
 //{:p} printed Adresse
+//mit impl werden Structs und Enums implementiert

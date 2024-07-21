@@ -16,3 +16,4 @@ fn main() {
 }
 
 //Funktionen im Modul müssen öffentlich sein (pub)
+//Modules kapseln den Code. Sie vereinen Funktionen in einem Block und machen den Code übersichtlicher

@@ -6,13 +6,6 @@ fn main() {
     test();
     add_numbers(20, 30);
     add_numbers2(20, 30);
-
-    //Statement
-    let number = {
-        let x = 3;
-        x+1   //kein Semikolon, weil x+1 returnt werden muss
-    };
-    println!("{}", number)    //kein Semikolon, weil number returnt werden soll
 }
 
 //neue Funktion "test" ... können überall im Code implementiert werden

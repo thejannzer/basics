@@ -33,7 +33,7 @@ fn main() {
     {
         let s1 = String::from("Hello");
         let s2 = s1;                        // Value of “s1” is moved into “s2”
-        println!("{}, World!", s1);         //Fehler 
+        println!("{}, World!", s1);         // Fehler... s1 nicht mehr gültig
     }        
 
     //--> Lösung = Refenrences + Borrowing
