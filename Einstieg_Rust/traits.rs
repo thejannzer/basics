@@ -33,6 +33,11 @@ fn main() {
     }
 }
 
+// Copy Trait kopiert den Wert eines Elementes (primitive Datentypen)
+// Clone Trait erlaubt tiefe Kopien der Werte von Elementen, also auch von komplexen Datentypen wie String
+// Debug Trait ermöglicht es Typen für den Programmierer lesbar zu formatieren und wiederzugeben ({:?})
+// Display Trait ist noch lesefreundlicher als der Debug Trait
+
 // self = erstes Argument in der Methode bei traits und impl (Referenz auf das Objekt)
 // Self = Typ des aktuellen Objekts
 

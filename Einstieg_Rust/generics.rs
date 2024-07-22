@@ -1,6 +1,7 @@
 // Polymorphismus heißt, dass Methoden in verschiedenen Objekten unterschiedlich ausgeführt werden können (Wie SWT Java)
 
 // Generic verwendet Typparameter um Flexibilität/Wiederverwendbarkeit des Codes zu verbessern (Wie SWT Java)
+// Compiler überprüft ob generische Typen korrekt verwendet werden
 fn main() {
     #[derive(Debug)]
     struct Point<T> {
