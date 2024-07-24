@@ -24,3 +24,4 @@ fn laengstes<'a>(x: &'a str, y: &'a str) -> &'a str{    //Referenz x und y müss
 }
 
 //Lifetimes sind notwendig, damit keine Referenz auf ungültige Speicherbereiche zeigt (Dangling References)
+//werden benötigt wenn Funktionen als Parameter und Rückgabewert Referenzen haben, oder structs Referenzen benutzen
