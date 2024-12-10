@@ -8,7 +8,11 @@ public class arrays{
 
         System.out.println(cars[2]);
 
-        Integer[] numbers = {1, 2, 3, 4, 5, 6, 7, 8}
+        Integer[] numbers = {1, 2, 3, 4, 5, 6, 7, 8};
+
+        numbers[0] = 0;
+
+        System.out.println(numbers);
 
     }
 }
