@@ -1,1 +1,1 @@
-This Reporitory only contains some basic code for practicing :)
+This Reporitory only contains some basic code i used for learning. 
